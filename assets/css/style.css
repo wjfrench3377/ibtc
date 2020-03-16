@@ -1,0 +1,13 @@
+.logo {
+    background: url("../images/Redboiler.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 33%;
+    
+}
+.heading {
+    height: 50%;
+    width: 66%;
+}
