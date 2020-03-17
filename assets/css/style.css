@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto&display=swap:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 * {
     margin: 0;
@@ -11,28 +11,61 @@ body{
     color: #49484f;
 }
 .logo {
-    
-    background: url("../images/Redboiler.jpg");
+    background: url("../images/redboiler.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    }
-.heading {
-    
+    width: 33%;
+    height: 50%;
 }
-.container {
-   float: right;
-}
+
+
 #menu {
     font-size: 120%;
     list-style-type: none;
     letter-spacing: 2px;
 }
-#menu li {
-    float: right;
-    margin-right: 30px;
-}
+
+
 #menu a {
     text-decoration: none;
+}
+
+#company-name {
+    text-align: center;
+    font-family: "Roboto 700" sans-serif;
+    color: #4a6cc2;
+}
+
+.left {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+}
+.right {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+}
+.center {
+    padding-top: 20px;
+    width: 33%;
+    margin: 0 auto;
+    
+}
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #4a6cc2;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#circle-cover-bg {
+    background: url("../images/redboiler.jpg") no-repeat center center;
+    height: 100%;
+    
+
 }
