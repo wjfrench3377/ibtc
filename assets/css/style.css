@@ -1,13 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto&display=swap:100,200,300,400,500,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: lato;
+    color: #49484f;
+}
 .logo {
+    
     background: url("../images/Redboiler.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50%;
-    width: 33%;
+    
+    }
+.heading {
     
 }
-.heading {
-    height: 50%;
-    width: 66%;
+.container {
+   float: right;
+}
+#menu {
+    font-size: 120%;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+#menu a {
+    text-decoration: none;
 }
