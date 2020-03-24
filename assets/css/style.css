@@ -11,7 +11,7 @@ body{
     color: #49484f;
 }
 
-
+/* Header */
 
 #menu {
     font-size: 120%;
@@ -78,4 +78,25 @@ body{
     line-height: 30px;
     clear: both;
     margin-bottom: 20px;
+}
+
+
+footer{
+    height: 150px;
+}
+
+.social-nteworks {
+    text-align: center;
+}
+
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #5f6066;
 }
