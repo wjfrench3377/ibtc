@@ -10,6 +10,14 @@ body{
     font-family: lato;
     color: #49484f;
 }
+h2{
+    text-align: center;
+    font-family: "Roboto 700" sans-serif;
+    color: #5f6066;
+    margin-top: 20px;
+    
+}
+
 
 /* Header */
 
@@ -79,22 +87,24 @@ body{
     clear: both;
     margin-bottom: 20px;
 }
+/* Section*/
+
 
 /* Footer */
 footer{
     height: 150px;
 }
 
-.social-nteworks {
+
+.social-nteworks{
     text-align: center;
-}
+   }
 
 
-.social-networks li {
+.list{
     display: inline;
 }
-
-.social-networks i {
+.list i{
     font-size: 200%;
     margin: 1%;
     padding: 5%;
