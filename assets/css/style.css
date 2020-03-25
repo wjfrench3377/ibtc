@@ -13,7 +13,7 @@ body{
 h2{
     text-align: center;
     font-family: "Roboto 700" sans-serif;
-    color: #5f6066;
+    color: #c94447;
     margin-top: 20px;
     
 }
@@ -24,13 +24,14 @@ h2{
 #menu {
     font-size: 120%;
     list-style-type: none;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 
 #menu a {
     text-decoration: none;
 }
+
 
 #company-name {
     text-align: center;
@@ -43,20 +44,23 @@ h2{
     padding-top: 20px;
     width: 33%;
     float: left;
+    text-decoration: underline;
+    color: #c94447;
     
 }
 .right {
     padding-top: 20px;
     width: 33%;
     float: right;
-    
+    text-decoration: underline;
+    color: #c94447;
 }
 .center {
     padding-top: 20px;
     width: 33%;
     margin: 0 auto;
-    
-    
+    text-decoration: underline;
+    color: #c94447;
 }
 #circle-container {
     width: 150px;
@@ -79,6 +83,7 @@ h2{
     line-height: 30px;
     clear: both;
     margin-bottom: 20px;
+    color: #c94447;
 }
 .left-menu {
     width: 50%;
@@ -86,8 +91,22 @@ h2{
     line-height: 30px;
     clear: both;
     margin-bottom: 20px;
+    color: #c94447;
 }
-/* Section*/
+/* Home Section*/
+.company-background {
+   color: #c94447;
+   
+   margin-top: 20px;
+   width: 33%; 
+}
+
+.company-background p {
+    text-decoration: none;
+    font-family: lato;
+    color: #49484f;
+    
+}
 
 
 /* Footer */
