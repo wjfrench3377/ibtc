@@ -20,33 +20,29 @@ h2{
 
 
 /* Header */
-
+header{
+    background-color: rgba(155,177,200, 0.6);
+}
 #menu {
     font-size: 120%;
     list-style-type: none;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
-
-
 #menu a {
     text-decoration: none;
 }
-
-
 #company-name {
     text-align: center;
     font-family: "Roboto 700" sans-serif;
     color: #5f6066;
     background-color: #c94447;
 }
-
 .left {
     padding-top: 20px;
     width: 33%;
     float: left;
     text-decoration: underline;
     color: #c94447;
-    
 }
 .right {
     padding-top: 20px;
@@ -93,22 +89,47 @@ h2{
     margin-bottom: 20px;
     color: #c94447;
 }
+
+
 /* Home Section*/
 .company-background {
    color: #c94447;
-   
    margin-top: 20px;
    width: 33%; 
 }
-
 .company-background p {
     text-decoration: none;
     font-family: lato;
     color: #49484f;
+    }
+#menu a.left-menu:hover {
+    background-color: #c94447;
+    color: #5f6066;
+}
+#menu a.right-menu:hover {
+    background-color: #c94447;
+    color: #5f6066;
+}
+/* all pages */
+
+#burners {
+    background: url("../images/newboilers.jpg") no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
     
 }
-
-
+#burners div{
+    height: 400px;
+    color: #fafafa;
+    /*background-color: rgba(0,0,0, 0.6);*/
+    width: 24%;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+}
 /* Footer */
 footer{
     height: 150px;
